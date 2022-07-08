@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listFragment3">
+    <fragment
+        android:id="@+id/listFragment3"
+        android:name="com.onuremren.marvel.view.ListFragment"
+        android:label="ListFragment" />
+</navigation>
